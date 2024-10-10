@@ -22,77 +22,7 @@ const links = [
     "https://docs.okto.tech/docs/introduction-to-okto/okto-vendor-user",
     "https://docs.okto.tech/docs/introduction-to-okto/how-okto-manages-keys",
     "https://docs.okto.tech/docs/introduction-to-okto/onchain-execution",
-    "https://docs.okto.tech/docs/introduction-to-okto/future-sdk-scope",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/overview",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/dashboard-account",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/okto-environments/sandbox",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/okto-environments/upgrade-to-prod",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/okto-environments/pricing",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/api-key",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/ui-customizations/overview",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/ui-customizations/user-login-method",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/ui-customizations/ui-theme",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/wallet-control",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/sponsorship/overview",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/sponsorship/using-sponsorship",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/user-order-logs/user-log",
-    "https://docs.okto.tech/docs/developer-admin-dashboard/user-order-logs/user-order-history",
-    "https://docs.okto.tech/docs/react-sdk/getting-started/overview-okto-react",
-    "https://docs.okto.tech/docs/react-sdk/getting-started/quickstart-okto-react/prerequisites",
-    "https://docs.okto.tech/docs/react-sdk/getting-started/quickstart-okto-react/new-okto-react-setup",
-    "https://docs.okto.tech/docs/react-sdk/using-react-features/components/OktoProvider",
-    "https://docs.okto.tech/docs/react-sdk/using-react-features/hooks/useOkto",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/chains-tokens/supported-networks",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/authenticate-users/google-oauth/learn",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/authenticate-users/google-oauth/google-console-setup",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/authenticate-users/auth-user-via-code",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/okto-embedded-wallet/setup-embedded-wallets/create-embedded-wallets",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/get-embedded-wallet-details",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/get-user-details",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/get-user-balance-portfolio",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/transfer-tokens",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/transfer-nfts",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/raw-transactions",
-    "https://docs.okto.tech/docs/react-sdk/advanced-sdk-config/okto-embedded-wallet/built-in-ui-screens/show-ui-screen-via-code",
-    "https://docs.okto.tech/docs/react-sdk/example-apps/template-app",
-    "https://docs.okto.tech/docs/react-sdk/example-apps/example-repos",
-    "https://docs.okto.tech/docs/react-sdk/troubleshooting-faq/sdk-error-warnings",
-    "https://docs.okto.tech/docs/react-sdk/troubleshooting-faq/contact-us",
-    "https://docs.okto.tech/docs/flutter-sdk/getting-started/overview-okto-flutter",
-    "https://docs.okto.tech/docs/flutter-sdk/getting-started/quickstart-okto-flutter/prerequisites",
-    "https://docs.okto.tech/docs/flutter-sdk/getting-started/quickstart-okto-flutter/new-okto-flutter-setup",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/chains-tokens/supported-networks",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/authenticate-users/google-oauth/learn",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/authenticate-users/google-oauth/google-console-setup-web",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/authenticate-users/google-oauth/google-console-setup-android",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/authenticate-users/google-oauth/google-console-setup-ios",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/authenticate-users/auth-user-via-code",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/okto-embedded-wallet/setup-embedded-wallets/create-embedded-wallets",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/get-embedded-wallet-details",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/get-user-details",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/get-user-balance-portfolio",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/transfer-tokens",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/transfer-nfts",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/raw-transactions",
-    "https://docs.okto.tech/docs/flutter-sdk/advanced-sdk-config/okto-embedded-wallet/built-in-ui-screens/show-ui-screen-via-code",
-    "https://docs.okto.tech/docs/flutter-sdk/example-apps/template-app",
-    "https://docs.okto.tech/docs/react-native-sdk/getting-started/overview-okto-react-native",
-    "https://docs.okto.tech/docs/react-native-sdk/getting-started/quickstart-okto-react-native/prerequisites",
-    "https://docs.okto.tech/docs/react-native-sdk/getting-started/quickstart-okto-react-native/new-okto-react-setup",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/chains-tokens/supported-networks",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/authenticate-users/google-oauth/learn",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/authenticate-users/google-oauth/google-console-setup-web",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/authenticate-users/google-oauth/google-console-setup-android",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/authenticate-users/google-oauth/google-console-setup-ios",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/authenticate-users/auth-user-via-code",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/okto-embedded-wallet/setup-embedded-wallets/create-embedded-wallets",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/get-embedded-wallet-details",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/get-user-details",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/get-user-balance-portfolio",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/transfer-tokens",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/transfer-nfts",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/okto-embedded-wallet/use-user-embedded-wallet/raw-transactions",
-    "https://docs.okto.tech/docs/react-native-sdk/advanced-sdk-config/okto-embedded-wallet/built-in-ui-screens/show-ui-screen-via-code"
+    "https://docs.okto.tech/docs/introduction-to-okto/future-sdk-scope"
 ];
 
 let vectorStore: MemoryVectorStore | null = null;
@@ -159,7 +89,7 @@ bot.command("start", (ctx) => {
     const inlineKeyboard = new InlineKeyboard()
         .text("Available Commands", "show_commands");
 
-    const welcomeMessage = `Welcome to the Gaianet Bot! You can click below to see available commands or ask anything related to Gaianet.`;
+    const welcomeMessage = `Welcome to the Okto GPT! You can click below to see available commands or ask anything related to Okto.`;
     ctx.reply(welcomeMessage, {
         reply_markup: inlineKeyboard,
     });
@@ -180,7 +110,7 @@ bot.command("help", (ctx) => {
     const helpMessage = `
 Here are the commands you can use:
 
-/start - Start interacting with the Gaianet bot and get the welcome message
+/start - Start interacting with the Okto bot and get the welcome message
 /topics - Show a list of common topics to ask about
 /help - Display this help message with available commands
     `;
@@ -189,12 +119,9 @@ Here are the commands you can use:
 
 bot.command("topics", (ctx) => {
     const quickReplyKeyboard = new Keyboard()
-        .text("What is Gaianet?")
-        .text("How to install Gaianet Node?")
-        .row()
-        .text("Gaianet User Guide")
-        .text("Gaianet Creator Guide");
-
+        .text("What is Okto?")
+        .text("How to get started with Okto?")
+        
     ctx.reply("Here are some topics you can ask about:", {
         reply_markup: {
             keyboard: quickReplyKeyboard.build(),
@@ -205,7 +132,7 @@ bot.command("topics", (ctx) => {
 });
 
 bot.callbackQuery("ask_again", (ctx) => {
-    ctx.reply("Please ask your next question about Gaianet:");
+    ctx.reply("Please ask your next question about Okto:");
     ctx.answerCallbackQuery();
 });
 
@@ -268,16 +195,15 @@ bot.on("message:text", async (ctx) => {
               }
           
               const result: any = await response.json()
-              console.log(result?.candidates[0]?.content.parts);
               gaiaResponse = result?.candidates[0]?.content.parts[0].text
         } catch (err) {
-            console.error("Error interacting with Gaianet Gemma API:", err);
+            console.error("Error interacting with Gemma API:", err);
         }
 
         const inlineKeyboard = new InlineKeyboard()
             .text("Ask Another Question", "ask_again")
             .row()
-            .url("View Docs", "https://docs.gaianet.ai/intro");
+            .url("View Docs", "https://docs.okto.tech");
 
         let sanitizedRes = telegramifyMarkdown(gaiaResponse ?? '', 'escape');
         await ctx.reply(`${sanitizedRes}`, {
@@ -285,8 +211,8 @@ bot.on("message:text", async (ctx) => {
             reply_markup: inlineKeyboard,
         });
     } catch (error) {
-        console.error("Error interacting with Gaianet LLM:", error);
-        ctx.reply("There was an issue reaching Gaianet's knowledge base. Please try again later.");
+        console.error("Error interacting with LLM:", error);
+        ctx.reply("There was an issue reaching Okto's knowledge base. Please try again later.");
     }
 });
 
